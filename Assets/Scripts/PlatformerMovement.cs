@@ -186,6 +186,8 @@ public class PlatformerMovement : MonoBehaviour
         {
             Debug.Log("Action2!");
             onAction2.Invoke();
+            
+            rb.gravityScale *= -1;
         }
     }
 }
